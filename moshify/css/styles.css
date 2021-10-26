@@ -127,6 +127,7 @@ a {
 
 .badge--small {
     font-size: 1.6rem;
+    padding: 0.5rem 1.5rem;
 }
 
 @media screen and (min-width: 1024px) {
@@ -303,9 +304,50 @@ a {
     color: #fff;
 }
 
+.card--primary .badge--primary {
+    background: #02cdf1; 
+}
+
 
 @media screen and (min-width: 1024px) {
     .input {
         font-size: 1.5rem;
     }
+}
+
+/* Plans */
+
+.plans__name {
+    color: #fff;
+    margin: 0;
+    font-weight: 500;
+    font-size: 2.4rem;
+}
+
+.plans__price {
+    font-size: 6rem;
+}
+
+.plans__billing-cycle {
+    font-size: 2.4rem;
+    font-weight: 300;
+    opacity: 0.8;
+    margin-right: 1rem;
+}
+
+.plans__badge {
+    font-size: 2.4rem;
+    font-weight: 300;
+    opacity: 0.8;
+}
+
+.plans__description {
+    font-size: 2rem;
+    font-weight: 300;
+    letter-spacing: 1px;
+    display: block; 
+}
+
+.plan .list__item {
+    margin-bottom: 2rem;
 }
